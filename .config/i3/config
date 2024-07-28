@@ -14,6 +14,7 @@ set $mod Mod4
 
 
 
+
 ############################### PERSONAL CONFIG ###############################
 
 ### VARIABLES ###
@@ -47,6 +48,7 @@ bindsym --release $mod+bracketleft exec "set-light-mode $light-wallpaper"
 bindsym --release $mod+bracketright exec "set-dark-mode $dark-wallpaper"
 
 ###############################################################################
+
 
 
 
