@@ -19,7 +19,7 @@ set $mod Mod4
 
 ### VARIABLES ###
 set $light-wallpaper ~/Pictures/wallpapers/triangles.jpg
-set $dark-wallpaper ~/Pictures/wallpapers/current-desktop.jpg
+set $dark-wallpaper ~/Pictures/wallpapers/green-triangle.jpg
 
 ### WINDOWS ###
 for_window [class="^.*"] border pixel 2
