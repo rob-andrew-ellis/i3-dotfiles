@@ -19,7 +19,7 @@ set $mod Mod4
 
 ### VARIABLES ###
 set $light-wallpaper ~/Pictures/wallpapers/triangles.jpg
-set $dark-wallpaper ~/Pictures/wallpapers/firewatch-green.jpg
+set $dark-wallpaper ~/Pictures/wallpapers/firewatch-green-darksky.jpg
 
 ### WINDOWS ###
 for_window [class="^.*"] border pixel 0
@@ -27,7 +27,6 @@ gaps inner 5
 gaps outer 0
 
 ### RUN ON START ###
-exec_always --no-startup-id killall polybar
 exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
 
 exec_always --no-startup-id autotiling
