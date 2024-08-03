@@ -17,7 +17,9 @@ set $mod Mod4
 
 ############################### PERSONAL CONFIG ###############################
 
-### VARIABLES ###
+##############################
+#          VARIABLES         #
+##############################
 set $light-wallpaper ~/Pictures/wallpapers/triangles.jpg
 set $dark-wallpaper ~/Pictures/wallpapers/firewatch-green-darksky.jpg
 
@@ -26,7 +28,9 @@ for_window [class="^.*"] border pixel 0
 gaps inner 5
 gaps outer 0
 
-### RUN ON START ###
+##############################
+#        RUN ON START        #
+##############################
 exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
 
 exec_always --no-startup-id autotiling
@@ -40,13 +44,21 @@ exec_always --no-startup-id /usr/libexec/gsd-xsettings
 
 exec_always --no-startup-id xrandr --output HDMI-0 --mode 2560x1440 --rate 99.95
 
-### KEYBINDS ###
+##############################
+#          KEYBINDS          #
+##############################
 bindsym --release Super_L exec "rofi -show drun"
 
 bindsym --release $mod+bracketleft exec "set-light-mode $light-wallpaper"
 bindsym --release $mod+bracketright exec "set-dark-mode $dark-wallpaper"
 
-### WORKSPACES ###
+### screenshots ###
+bindsym Print exec --no-startup-id maim | xclip -selection clipboard -t image/png
+bindsym $mod+Shift+s exec --no-startup-id maim --select | xclip -selection clipboard -t image/png
+
+##############################
+#         WORKSPACES         #
+##############################
 workspace 1 output HDMI-0
 workspace 2 output DP-1
 workspace 3 output HDMI-0
