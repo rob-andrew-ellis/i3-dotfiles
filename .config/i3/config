@@ -44,6 +44,8 @@ exec_always --no-startup-id /usr/libexec/gsd-xsettings
 
 exec_always --no-startup-id xrandr --output HDMI-0 --mode 2560x1440 --rate 99.95
 
+exec_always --no-startup-id xmodmap ~/.config/.xmodmap
+
 ##############################
 #          KEYBINDS          #
 ##############################
