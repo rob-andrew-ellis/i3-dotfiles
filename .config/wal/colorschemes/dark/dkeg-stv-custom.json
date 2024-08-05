@@ -1,0 +1,11 @@
+{
+	"special":
+		{
+				"background":"#2c373d","foreground":"#baad8a","cursor":"#c4c0bb"
+		},
+		"colors":
+		{
+				"color0":"#2c373d","color1":"#e67e80","color2":"#83c092","color3":"#d3c6aa","color4":"#77a168","color5":"#8e7d79","color6":"#7b9899","color7":"#c4c0bb",
+				"color8":"#4d5459","color9":"#e67e80","color10":"#83c092","color11":"#d3c6aa","color12":"#77a168","color13":"#8e7d79","color14":"#7b9899","color15":"#c4c0bb"
+		}
+}
