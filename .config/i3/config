@@ -20,8 +20,8 @@ set $mod Mod4
 ##############################
 #          VARIABLES         #
 ##############################
-set $light-wallpaper ~/Pictures/wallpapers/triangles.jpg
-set $dark-wallpaper ~/Pictures/wallpapers/forest-stairs.webp
+set $light-wallpaper ~/Pictures/wallpapers/rivendell.jpg
+set $dark-wallpaper ~/Pictures/wallpapers/leaves.jpg
 
 ### WINDOWS ###
 for_window [class="^.*"] border pixel 0
@@ -50,6 +50,7 @@ exec_always --no-startup-id xmodmap ~/.config/.xmodmap
 #          KEYBINDS          #
 ##############################
 bindsym --release Super_L exec "rofi -show drun"
+bindsym --release Super_R exec "rofi -show drun"
 
 bindsym --release $mod+bracketleft exec "set-light-mode $light-wallpaper"
 bindsym --release $mod+bracketright exec "set-dark-mode $dark-wallpaper"

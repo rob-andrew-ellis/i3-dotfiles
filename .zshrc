@@ -2,6 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 export ZSH="$HOME/.oh-my-zsh"
+export PATH="$HOME/.cargo/bin:$PATH"
 
 export OBSIDIAN_REST_API_KEY=d963040f65b48167c66eb822e7699064e14b016aabc3245e432cc4b50376746c
 
